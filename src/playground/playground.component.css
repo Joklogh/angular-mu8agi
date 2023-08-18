@@ -1,0 +1,17 @@
+.large-button__section {
+  margin-left: 1rem;
+  width: 22rem;
+  --base-button-padding: 1rem 0;
+}
+
+.buttons-with-icons__section {
+  width: 9.625rem;
+  margin-left: 1rem;
+  --base-button-padding: 0.62rem 1rem;
+}
+
+.buttons-no-icon {
+  --base-button-padding: 0.81rem 1rem;
+  width: 7.875rem;
+  margin-left: 1rem;
+}

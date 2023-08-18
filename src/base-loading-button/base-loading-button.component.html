@@ -1,0 +1,12 @@
+<app-base-button
+  (click)="onSubmitButton()"
+  [isDisabled]="isDisabled"
+  [class.disabled]="isDisabled"
+>
+  <ng-container *ngIf="!isLoading">
+    <ng-content></ng-content>
+  </ng-container>
+  <ng-container *ngIf="isLoading">
+    <span class="loading-dots"></span>
+  </ng-container>
+</app-base-button>

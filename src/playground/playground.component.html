@@ -1,0 +1,67 @@
+<section>
+  <header>
+    <h2>Large button</h2>
+  </header>
+  <hr />
+  <div class="large-button__section body-1-proxima-soft-bold">
+    <app-base-loading-button (clicked)="cancelLoading($event)"
+      >Sign in</app-base-loading-button
+    >
+  </div>
+</section>
+<section>
+  <header>
+    <h2>Button with icon</h2>
+  </header>
+  <hr />
+  <div class="buttons-with-icons__section body-2-proxima-soft-bold">
+    <app-base-button>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+      >
+        <path
+          d="M9.99984 4.16675V15.8334M4.1665 10.0001H15.8332"
+          stroke="#FCFCFC"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Add Colleague
+    </app-base-button>
+    <app-base-button [isDisabled]="true">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 20 20"
+        fill="none"
+      >
+        <path
+          d="M9.99984 4.16675V15.8334M4.1665 10.0001H15.8332"
+          stroke="#FCFCFC"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      Add Colleague
+    </app-base-button>
+  </div>
+</section>
+<section>
+  <header>
+    <h2>Button without icon</h2>
+  </header>
+  <hr />
+  <div class="buttons-no-icon body-2-proxima-soft-bold">
+    <app-base-loading-button (clicked)="cancelLoading($event)"
+      >Add Colleague</app-base-loading-button
+    >
+    <app-base-button [isDisabled]="true">Add Colleague</app-base-button>
+  </div>
+</section>

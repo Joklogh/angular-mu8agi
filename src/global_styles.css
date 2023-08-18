@@ -1,0 +1,99 @@
+:root {
+  --white: #fcfcfc;
+  --black: #000;
+  --dark-blue-100: #0b1e23;
+  --dark-blue-75: #48565a;
+  --dark-blue-50: #858e91;
+  --dark-blue-25: #c2c7c8;
+  --dark-blue-2575: #d1d5d6;
+  --dark-blue-2550: #e1e3e3;
+  --dark-blue-2525: #f0f1f1;
+  --dark-blue-252575: #f4f5f5;
+  --green-100: #01a190;
+  --green-75: #41b9ac;
+  --green-50: #80d0c7;
+  --green-25: #bfe7e3;
+  --green-2530: #ecf8f7;
+  --red-100: #d08080;
+  --red-75: #dca0a0;
+  --red-50: #e7bfbf;
+  --red-25: #f3dfdf;
+  --red-2550: #f9efef;
+  --yellow-100: #f2c517;
+  --yellow-75: #f5d351;
+  --yellow-50: #f9e28b;
+  --yellow-25: #fcf1c5;
+  --yellow-2575: #fdf5d3;
+  --yellow-2550: #fdf8e2;
+  --yellow-2525: #fefbf1;
+  --yellow-252575: #fefcf5;
+  --blue-100: #0184a1;
+  --blue-75: #41a3b9;
+  --blue-50: #80c2d0;
+  --blue-25: #bfe0e7;
+  --light-green-100: #01a107;
+  --light-green-75: #41b945;
+  --light-green-50: #80d083;
+  --light-green-25: #bfe7c1;
+  --h1-size: 1.8125rem;
+  --h2-size: 1.625rem;
+  --h3-size: 1.4375rem;
+  --h4-size: 1.25rem;
+  --h5-size: 1.125rem;
+  --body-1-size: 1rem;
+  --body-2-size: 0.875rem;
+  --body-3-size: 0.8125rem;
+  --body-4-size: 0.6875rem;
+}
+
+@font-face {
+  font-family: 'Proxima Soft Bold';
+  src: url('https://asset-management.staging.grownapps.io/ProximaSoft-Bold.woff2')
+    format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Soft Regular';
+  src: url('https://asset-management.staging.grownapps.io/ProximaSoft-Regular.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.body-1-proxima-soft-bold {
+  font-size: var(--body-1-size);
+  color: var(--black);
+  font-family: Proxima Soft Bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.body-2-proxima-soft-bold {
+  font-size: var(--body-2-size);
+  color: var(--black);
+  font-family: Proxima Soft Bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.body-3-proxima-soft-bold {
+  font-size: var(--body-3-size);
+  color: var(--black);
+  font-family: Proxima Soft Bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.body-4-proxima-soft-bold {
+  font-size: var(--body-4-size);
+  color: var(--black);
+  font-family: Proxima Soft Bold, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -48,16 +48,14 @@
 
 @font-face {
   font-family: 'Proxima Soft Bold';
-  src: url('https://asset-management.staging.grownapps.io/ProximaSoft-Bold.woff2')
-    format('woff2');
+  src: url('src/ProximaSoft-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Soft Regular';
-  src: url('https://asset-management.staging.grownapps.io/ProximaSoft-Regular.woff2')
-    format('woff2');
+  src: url('src/ProximaSoft-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
